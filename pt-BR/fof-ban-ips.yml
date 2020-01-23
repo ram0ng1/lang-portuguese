@@ -1,4 +1,4 @@
---- 
+---
 fof-ban-ips:
   admin:
     empty_text: "Nenhum IP bloquado foi encontrado."
