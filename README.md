@@ -14,10 +14,17 @@ Aqui encontra-se o progresso da tradução Português do Brasil.
 
 
 
+## Contribua
+
+Contribua com a tradução Português do Brasil acessando o link e se registrando na plataforma abaixo:
+
+[tiuram0n/lang-portuguese](https://gitlocalize.com/repo/3803 "Flarow")
+
 ## Links
 
 ### tiuram0n/brazilian-portuguese
 
 - [GitHub](https://github.com/tiuram0n/brazilian-portuguese "GitHub")
 - [Packagist](https://packagist.org/packages/tiu-ram0n/brazilian-portuguese "Packagist")
-- [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese "Flarow")
+- [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese)
+
