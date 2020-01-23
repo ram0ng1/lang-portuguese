@@ -10,7 +10,7 @@ Aqui encontra-se o progresso da tradução Português do Brasil.
 
 |Idioma                |Progresso                          |Tradução                         | CodeFactor
 |----------------|-------------------------------|-----------------------------|---------------|
-|Português do Brasil|![enter image description here](https://gitlocalize.com/repo/3803/pt-BR/badge.svg)            |Core          |[![CodeFactor](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese/badge)](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese)
+|Português do Brasil|[![gitlocalized ](https://gitlocalize.com/repo/3803/pt-BR/badge.svg)](https://gitlocalize.com/repo/3803/pt-BR?utm_source=badge)            |Core          |[![CodeFactor](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese/badge)](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese)
 
 
 ## Contribua
