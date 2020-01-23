@@ -3,7 +3,7 @@ fof-recaptcha:
     settings:
       help_text: Obtenha suas credenciais do Google reCAPTCHA <a>aqui</a>.
 
-      type_label: reCAPTCHA 
+      type_label: reCAPTCHA
 
       site_key_label: Site Key
       secret_key_label: Secret Key
