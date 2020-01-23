@@ -1,8 +1,9 @@
+---
 core:
   admin:
     add_extension:
-      developer_text: Se você é um desenvolvedor,você pode <a>ler os documentos</a> e tentar
-        criar suas próprias extensões.
+      developer_text: Se você é um desenvolvedor,você pode <a>ler os documentos</a>
+        e tentar criar suas próprias extensões.
       install_text: Enquanto isso, você pode procurar extensões no <a>site da Comunidade
         Flarum</a> e instalá-las manualmente usando o Composer.
       temporary_text: Um dia em um futuro não muito distante, essa caixa de diálogo
@@ -83,6 +84,7 @@ core:
       from_label: Remetente
       heading: "=> core.ref.email"
       mail_encryption_label: Criptografia
+      mailgun_heading: Configurações de Mailgun
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
       mail_mailgun_secret_label: Secret key
@@ -93,13 +95,13 @@ core:
       mail_ses_region_label: Região
       mail_ses_secret_label: Secret
       mail_username_label: "=> core.ref.username"
-      mailgun_heading: Configurações de Mailgun
       mandrill_heading: Configurações do Mandrill
       ses_heading: Configurações do SES
       smtp_heading: Configurações SMTP
       submit_button: "=> core.ref.save_changes"
       text: Configure o driver, as configurações e os endereços que seu fórum usará
         para enviar e-mail's.
+      mail_mailgun_region_label: Região
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -188,15 +190,16 @@ core:
       subject: "=> core.ref.reset_your_password"
   forum:
     change_email:
-      confirm_password_placeholder: "=> core.ref.confirm_password"
       confirmation_message: "=> core.ref.confirmation_email_sent"
+      confirm_password_placeholder: "=> core.ref.confirm_password"
       dismiss_button: "=> core.ref.okay"
       incorrect_password_message: A senha que você digitou está incorreta.
       submit_button: "=> core.ref.save_changes"
       title: "=> core.ref.change_email"
     change_password:
       send_button: Enviar
-      text: Clique no botão abaixo e verifique se há um link para alterar sua senha em seu e-mail.
+      text: Clique no botão abaixo e verifique se há um link para alterar sua senha
+        em seu e-mail.
       title: "=> core.ref.change_password"
     composer:
       close_tooltip: Fechar
@@ -297,15 +300,15 @@ core:
       mark_as_read_tooltip: Marcar como Lido
       title: "=> core.ref.notifications"
       tooltip: "=> core.ref.notifications"
-    post:
-      edited_text: Editado
-      edited_tooltip: "{username} editou {ago}"
-      number_tooltip: Postagem nº{number}
     post_controls:
       delete_button: "=> core.ref.delete"
       delete_forever_button: "=> core.ref.delete_forever"
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
+    post:
+      edited_text: Editado
+      edited_tooltip: "{username} editou {ago}"
+      number_tooltip: Postagem nº{number}
     post_scrubber:
       now_link: agora
       original_post_link: Post Original
@@ -402,9 +405,9 @@ core:
     change_email: Mudar E-mail
     change_password: Mudar Senha
     color: Cor
-    confirm_password: Confirme a Senha
     confirmation_email_sent: Enviámos um e-mail de confirmação para {email}. Se não
       chegar logo, verifique sua pasta de spam.
+    confirm_password: Confirme a Senha
     custom_footer_text: Adicione HTML a ser exibido na parte inferior da página.
     custom_footer_title: Editar rodapé personalizado
     custom_header_text: Adicione HTML a ser exibido na parte superior da página, acima
