@@ -1,6 +1,6 @@
 # Pacote de idioma Português do Brasil
 
-Neste repositório encontra-se a tradução Português do Brasil para   **Flarum**. Não é recomendado usa-lo com extensão de tradução, pois ainda podem conter traduções irregulares. Se possível você pode visitar o repositório da Tradução [Português do Brasil](https://github.com/tiuram0n/brazilian-portuguese) revisado para instalação em sua instância Flarum .
+Neste repositório encontra-se a tradução Português do Brasil para   **Flarum**. Não é recomendado usa-lo com extensão de tradução, pois ainda podem conter traduções irregulares. Se possível, você pode visitar o repositório da Tradução [Português do Brasil](https://github.com/tiuram0n/brazilian-portuguese) revisado para instalação em sua instância Flarum .
 
 
 # Progresso
