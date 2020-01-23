@@ -8,7 +8,7 @@ Neste repositório encontra-se a tradução Português do Brasil para   **Flarum
 Aqui encontra-se o progresso da tradução Português do Brasil.  
 
 
-|                |Progresso                          |Tradução                         |
+|Idioma                |Progresso                          |Tradução                         |
 |----------------|-------------------------------|-----------------------------|
 |Português do Brasil|![enter image description here](https://gitlocalize.com/repo/3803/pt-BR/badge.svg)            |Core          |
 
