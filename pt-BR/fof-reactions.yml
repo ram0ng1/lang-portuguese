@@ -1,4 +1,4 @@
-reflar-reactions:
+fof-reactions:
   forum:
     warning: Sua reação foi convertida
     notification: '{username} reagiu com {reaction} à sua postagem'
