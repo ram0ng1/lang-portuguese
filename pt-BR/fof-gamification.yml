@@ -2,7 +2,7 @@ core:
   forum:
     index_sort:
       hot_button: Tendência
-      
+
 fof-gamification:
   forum:
     votes: Votos
@@ -50,7 +50,7 @@ fof-gamification:
         rate_limit: Colocar um tempo mínimo para votar novamente (10 segundos)
         discussion_page: Mostrar total de votos da postagem original na lista de discussões
         title: Votos
-        vote_color: Cor do voto 
+        vote_color: Cor do voto
         icon_name: ícone curtida/descurtido
         icon_help: "Insira qualquer ícone Font-Awesome com o sufixo -up e -down. Exemplos: arrow, thumbs, chevron"
       save_settings: Salvar configurações
