@@ -2,7 +2,7 @@
 clarkwinkelmann-create-user-modal:
   admin:
     permissions:
-      view: Exibir janela de criação de usuário
+      view: Exibir janela de criação do usuário
   forum:
     link: Criar novo usuário
     modal:
