@@ -37,6 +37,9 @@
                 "backgroundPosition": "center"
             }
         },
+        "flagrow": {
+            "discuss": "https://discuss.flarum.org/d/18543"
+        },	    
         "flarum-locale": {
             "code": "pt-BR",
             "title": "Português Brasileiro"
