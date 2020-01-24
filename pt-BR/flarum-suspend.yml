@@ -18,4 +18,4 @@ flarum-suspend:
       suspend_button: Suspender
   admin:
     permissions:
-      suspend_users_label: Suspender usuários |
+      suspend_users_label: Suspender usuários
