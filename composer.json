@@ -1,15 +1,15 @@
 {
-    "name": "tiuram0n/lang-portuguese,
+    "name": "tiuram0n/lang-portuguese",
     "type": "flarum-extension",
     "description": "Pacote de idioma Português do Brasil.",
     "homepage": "https://coode.in",	
     "keywords": [
-		"brazilian",
-		"portuguese",
-		"language",
-		"locale",
+			"brazilian",
+			"portuguese",
+			"language",
+			"locale",
 	    	"português",
-	    	"extensao"
+	    	"extensao"	
 	],
     "license": "MIT",
     "authors": [
@@ -39,7 +39,7 @@
         },
         "flagrow": {
             "discuss": "https://discuss.flarum.org/d/18543"
-        },	    
+        },
         "flarum-locale": {
             "code": "pt-BR",
             "title": "Português Brasileiro"
