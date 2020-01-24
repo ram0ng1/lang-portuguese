@@ -1,6 +1,0 @@
-types:
-  fix:
-    ui: 'automerge'
-    api: 'API Fixed!'
-    default: 'There was no scope attached'
-  feat: 'I cover all features'
