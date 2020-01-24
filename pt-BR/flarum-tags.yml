@@ -16,7 +16,7 @@ flarum-tags:
       slug_label: Slug
       submit_button: "=> core.ref.save_changes"
       title: "=> flarum-tags.ref.create_tag"
-      description_label: 'Descrição : Apenas um teste '
+      description_label: Descrição
     nav:
       tags_button: "=> flarum-tags.ref.tags"
       tags_text: Administre a lista de tags disponíveis para organizar discussões.
