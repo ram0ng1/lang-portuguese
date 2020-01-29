@@ -1,3 +1,2 @@
-*.toml
 .toml
-./locale
+/locale
