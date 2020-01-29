@@ -1,2 +1,4 @@
-.toml
-/locale
+# ignore those files 
+.kodiak.toml
+.gitignore
+README.md
