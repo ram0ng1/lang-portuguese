@@ -447,7 +447,7 @@ reflar-webhooks:
             renamed: "=> reflar-webhooks.ref.renamed"
             restored: "=> reflar-webhooks.ref.restored"
             started: Iniciando
-            title: Discussão do Flarum
+            title: Discussão
           group:
             created: Criado
             deleted: "=> reflar-webhooks.ref.deleted"
@@ -464,7 +464,7 @@ reflar-webhooks:
             deleted: "=> reflar-webhooks.ref.deleted"
             registered: Registrado
             renamed: "=> reflar-webhooks.ref.renamed"
-            title: Usuário Flarum
+            title: Usuário
       help:
         disabled: Este webhook está desativado porque não tem nenhum evento ativado.
         general: Aqui você pode adicionar, editar e remover webhooks do seu fórum.
