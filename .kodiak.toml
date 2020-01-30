@@ -2,3 +2,4 @@
 # Minimal config. version is the only required field.
 version = 1
 merge.require_automerge_label = false
+merge.delete_branch_on_merge  = true
