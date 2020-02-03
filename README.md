@@ -8,9 +8,9 @@ Neste repositório encontra-se a tradução Português do Brasil para   **Flarum
 Aqui encontra-se o progresso da tradução Português do Brasil.  
 
 
-|Idioma                |Progresso                          |Tradução                         | CodeFactor
-|----------------|-------------------------------|-----------------------------|---------------|
-|Português do Brasil|[![gitlocalized ](https://gitlocalize.com/repo/3803/pt-BR/badge.svg)](https://gitlocalize.com/repo/3803/pt-BR?utm_source=badge)            |Core          |[![CodeFactor](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese/badge)](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese)
+|Idioma                |Progresso                                                   | CodeFactor
+|----------------|---------------------------------|---------------|
+|Português do Brasil|[![gitlocalized ](https://gitlocalize.com/repo/3803/pt-BR/badge.svg)](https://gitlocalize.com/repo/3803/pt-BR?utm_source=badge)                      |[![CodeFactor](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese/badge)](https://www.codefactor.io/repository/github/tiuram0n/lang-portuguese)
 
 
 ## Contribua
