@@ -7,6 +7,7 @@ flarum-flags:
     settings:
       guidelines_url_label: URL das Regras da Comunidade
       title: Configurações de Sinalização
+      flag_own_posts_label: Permitir que os usuários sinalizem suas próprias postagens
   forum:
     flagged_posts:
       empty_text: Sem Sinalizações
@@ -28,6 +29,8 @@ flarum-flags:
       reason_spam_text: Este post é uma propaganda.
       submit_button: "=> flarum-flags.ref.flag_post"
       title: "=> flarum-flags.ref.flag_post"
+      reason_details_placeholder: Detalhes adicionais (opcional)
+      reason_missing_message: Forneça alguns detalhes para nossos moderadores.
     post_controls:
       flag_button: Sinalizar
     post:
