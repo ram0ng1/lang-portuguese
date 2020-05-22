@@ -73,6 +73,7 @@ core:
       singular_placeholder: Singular (por exemplo, Mod)
       submit_button: "=> core.ref.save_changes"
       title: Criar Grupo
+      hide_label: Ocultar no fórum
     edit_header:
       customize_text: "=> core.ref.custom_header_text"
       submit_button: "=> core.ref.save_changes"
@@ -87,6 +88,7 @@ core:
       mailgun_heading: Configurações de Mailgun
       mail_host_label: Host
       mail_mailgun_domain_label: Dominio
+      mail_mailgun_region_label: Região
       mail_mailgun_secret_label: Secret key
       mail_mandrill_secret_label: Chave secreta
       mail_password_label: "=> core.ref.password"
@@ -101,7 +103,8 @@ core:
       submit_button: "=> core.ref.save_changes"
       text: Configure o driver, as configurações e os endereços que seu fórum usará
         para enviar e-mail's.
-      mail_mailgun_region_label: Região
+      not_sending_message: Flarum atualmente não envia e-mails. Isso pode ocorrer
+        devido ao driver selecionado ou a erros de configuração.
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -146,6 +149,8 @@ core:
       view_last_seen_at_label: Ver a última vez que o usuário visualizou
       view_post_ips_label: Exibir endereços IP da postagem
       view_user_list_label: Ver lista de usuários
+      post_without_throttle_label: Responda várias vezes sem esperar
+      view_hidden_groups_label: Ver emblemas de grupo ocultos
     permissions_controls:
       allow_indefinitely_button: Indefinidamente
       allow_some_minutes_button: Por {count} minuto | Por {count} minutos
@@ -305,6 +310,9 @@ core:
       delete_forever_button: "=> core.ref.delete_forever"
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
+      delete_confirmation: Tem certeza de que deseja excluir esta postagem para sempre?
+        Essa ação não pode ser desfeita.
+      hide_confirmation: Tem certeza de que deseja excluir esta postagem?
     post:
       edited_text: Editado
       edited_tooltip: "{username} editou {ago}"
