@@ -27,8 +27,7 @@ the-turk-diff:
     editedInfo: "=> core.forum.post.edited_tooltip"
     deletedInfo: "{username} excluiu este conteúdo {ago}"
     createdInfo: "{username} criado {ago}"
-    revisionInfo: Horário {revisionCount} editado, mais recente na parte superior
-      | Horário {revisionCount} editado, mais recente na parte superior
+    revisionInfo: Histórico de Alterações
     noDiff: Não foram encontradas diferenças entre esses dois conteúdos.
     differences:
       originalContent: "=> the-turk-diff.ref.originalContent"
