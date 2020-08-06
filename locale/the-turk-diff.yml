@@ -4,7 +4,6 @@ the-turk-diff:
         emptyText:                    No Revisions
         editedText:                   => core.forum.post.edited_text
         deletedText:                  (deleted)
-        
         tooltips:
           # Revision List Tooltips
           mostRecent:                 most recent
