@@ -1,0 +1,18 @@
+# File: .github/workflows/repo-sync.yml
+- name: GitHub Repo Sync
+  uses: repo-sync/github-sync@v2.1.0
+on:
+  schedule:
+  - cron:  "*/15 * * * *"
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: repo-sync
+      uses: repo-sync/github-sync@v2
+      with:
+        source_repo: "https://github.com/tiuram0n/lang-portuguese"
+        source_branch: "https://github.com/tiuram0n/lang-portuguese/tree/master"
+        destination_branch: "https://github.com/tiuram0n/brazilian-portuguese/tree/master"
+        github_token: ${{ secrets.PASWD }}
