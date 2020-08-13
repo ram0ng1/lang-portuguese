@@ -1,4 +1,3 @@
----
 the-turk-welcome-widgets:
   forum:
     users: "=> core.ref.users"
