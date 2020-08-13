@@ -13,8 +13,9 @@ rules:
   comments-indentation:
     level: warning
   document-end: disable
-  document-start:
-    level: warning
+  document-start: disable
+  max-spaces-before: -1
+  max-spaces-after: -1
   empty-lines: enable
   empty-values: disable
   hyphens: enable
