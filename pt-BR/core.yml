@@ -107,12 +107,12 @@ core:
       send_test_mail_success: Teste de e-mail enviado com sucesso!
       send_test_mail_text: Isso enviará um e-mail usando a configuração acima para
         o seu e-mail, {email}.
-      mail_ses_key_label: Chave
-      ses_heading: Configurações do SES
-      mandrill_heading: Configurações do Mandrill
-      mail_ses_secret_label: Secret
-      mail_ses_region_label: Região
       mail_mandrill_secret_label: Chave secreta
+      mail_ses_key_label: Chave
+      mandrill_heading: Configurações do Mandrill
+      ses_heading: Configurações do SES
+      mail_ses_region_label: Região
+      mail_ses_secret_label: Secret
     extensions:
       add_button: Adicionar extensão
       settings_button: "=> core.ref.settings"
@@ -193,7 +193,7 @@ core:
       minimize_tooltip: Minimizar
       preview_tooltip: Visualizar
     composer_discussion:
-      body_placeholder: Escrever um post ...
+      body_placeholder: Escrever um post...
       discard_confirmation: Você não postou sua discussão. Deseja descartá-la?
       submit_button: Iniciar Discussão
       title: "=> core.ref.start_a_discussion"
