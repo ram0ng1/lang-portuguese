@@ -1,9 +1,0 @@
-       name: Pushes to another repository
-        uses: ram0ng1/github-action-push-to-another-repository@master
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'pt-BR'
-          destination-github-username: 'ram0ng1'
-          destination-repository-name: 'ram0ng1/brazilian-portugueset'
-          user-email: ramonguilherme@outlook.com
