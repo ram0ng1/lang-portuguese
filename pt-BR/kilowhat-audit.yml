@@ -39,3 +39,6 @@ kilowhat-audit:
         access_token: Token de acesso
         cli: Linha de comando
         unknown: Cliente desconhecido
+      fof_ban_ips:
+        banned: IP banido {ip}
+        unbanned: IP não banido {ip}
