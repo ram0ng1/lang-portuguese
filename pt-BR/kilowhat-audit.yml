@@ -3,7 +3,9 @@ kilowhat-audit:
   admin:
     menu:
       title: Registro de auditoria
+      description: Rever ações recentes.
     header:
+      title: Registro de Auditoria
       free: Plano Free
       pro: Plano Pro
       upgrade: Atualizar para Plano Pro
@@ -14,6 +16,7 @@ kilowhat-audit:
       discussion-audit: Registro de auditoria
   lib:
     browser:
+      filterApply: Aplicar
       empty: Sem resultados
       loadMore: Mais
       withoutActor: "=> core.group.guest"
