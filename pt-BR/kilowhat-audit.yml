@@ -1,0 +1,38 @@
+---
+kilowhat-audit:
+  admin:
+    menu:
+      title: Registro de auditoria
+    header:
+      free: Plano Free
+      pro: Plano Pro
+      upgrade: Atualizar para Plano Pro
+      documentation: Ver documentação completa
+      version: Versão {version}
+  forum:
+    link:
+      discussion-audit: Registro de auditoria
+  lib:
+    browser:
+      empty: Sem resultados
+      loadMore: Mais
+      withoutActor: "=> core.group.guest"
+      deletedResource:
+        discussion: 'Discussão #{id}'
+        group: 'Grupo #{id}'
+        post: 'Post #{id}'
+        tag: 'Tag #{id}'
+        user: 'Usuário #{id}'
+      genericResource:
+        comment: Comentário
+        post: Post
+      permissionGroup:
+        everyone: "=> core.admin.permissions_controls.everyone_button"
+        members: "=> core.admin.permissions_controls.members_button"
+      noValue: "(sem valor)"
+      client:
+        session: Sessão Web
+        api_key: API key
+        access_token: Token de acesso
+        cli: Linha de comando
+        unknown: Cliente desconhecido
