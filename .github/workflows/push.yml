@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     container: pandoc/latex
     steps:
-      - uses: actions/ram0ng1/brazilian-portuguese/locale@master
+      - uses: actions/ram0ng1@master
       - name: creates output
         run:  sh ./build.sh
       - name: Pushes to another repository
-        uses: actions/ram0ng1/brazilian-portuguese/locale@master
+        uses: ram0ng1/brazilian-portuguese@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
