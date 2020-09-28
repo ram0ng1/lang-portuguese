@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     container: pandoc/latex
     steps:
-      - uses: actions/ram0ng1@master
+      - uses: actions/checkout@v2
       - name: creates output
         run:  sh ./build.sh
       - name: Pushes to another repository
