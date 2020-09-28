@@ -17,7 +17,7 @@ jobs:
       - name: creates output
         run:  sh ./build.sh
       - name: Pushes to another repository
-        uses: ramon@master
+        uses: actions/ram0ng1/brazilian-portuguese/locale@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
