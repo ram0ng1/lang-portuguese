@@ -1,27 +1,9 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Enviar para outro diretório
-
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    container: pandoc/latex
-    steps:
-      - uses: actions/github-push-action@master
-      - name: creates output
-        run:  sh ./build.sh
       - name: Pushes to another repository
-        uses: ram0ng1/brazilian-portuguese@master
+        uses: ram0ng1/github-action-push-to-another-repository@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'ram0ng1/lang-portuguese'
-          destination-github-username: 'Ramon'
-          destination-repository-name: 'ram0ng1/brazilian-portuguese'
+          source-directory: 'pt-BR'
+          destination-github-username: 'ram0ng1'
+          destination-repository-name: 'ram0ng1/brazilian-portugueset'
           user-email: ramonguilherme@outlook.com
