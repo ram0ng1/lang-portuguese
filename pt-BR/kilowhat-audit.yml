@@ -46,3 +46,5 @@ kilowhat-audit:
       fof_ban_ips:
         banned: IP banido {ip}
         unbanned: IP não banido {ip}
+      user:
+        username_request_rejected: Mudança de nome de usuário de {username} rejeitada
