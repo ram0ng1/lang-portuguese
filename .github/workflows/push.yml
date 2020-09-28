@@ -1,4 +1,4 @@
-      - name: Pushes to another repository
+       name: Pushes to another repository
         uses: ram0ng1/github-action-push-to-another-repository@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
