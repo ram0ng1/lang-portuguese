@@ -14,6 +14,8 @@ kilowhat-audit:
   forum:
     link:
       discussion-audit: Registro de auditoria
+    modal:
+      user-title: Registro de auditoria do usuário
   lib:
     browser:
       filterApply: Aplicar
