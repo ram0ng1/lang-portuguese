@@ -41,6 +41,8 @@ kilowhat-audit:
         unknown: Cliente desconhecido
       controls:
         filterIp: Mostrar logs por este IP
+      extension:
+        enabled: 'Extensão ativada: {package}'
       fof_ban_ips:
         banned: IP banido {ip}
         unbanned: IP não banido {ip}
