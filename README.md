@@ -25,5 +25,5 @@ Contribua com a tradução Português do Brasil acessando o link e se registrand
 
 - [GitHub](https://github.com/tiuram0n/brazilian-portuguese "GitHub")
 - [Packagist](https://packagist.org/packages/tiu-ram0n/brazilian-portuguese "Packagist")
-- [Flagrow](https://flagrow.io/extensions/tiu-ram0n/brazilian-portuguese)
+- [Extiverse](https://extiverse.com/extension/tiu-ram0n/brazilian-portuguese)
 
